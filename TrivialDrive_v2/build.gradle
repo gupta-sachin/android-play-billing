@@ -35,7 +35,7 @@ project.ext {
     //
     // The storeFile location can be a relative or absolute filename.
     // https://docs.gradle.org/current/userguide/working_with_files.html
-    APP_ID = "com.example.billingsample"
+    APP_ID = "com.gamepind.googlebillingdemo"
     TEST_APP_ID = APP_ID + ".test"
 
     KEYSTORE_STORE_FILE = rootProject.file(keystoreProperties['storeFile'])
@@ -67,7 +67,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.2.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
