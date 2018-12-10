@@ -76,7 +76,8 @@ public class BillingManager implements PurchasesUpdatedListener {
      * want to make it easy for an attacker to replace the public key with one
      * of their own and then fake messages from the server.
      */
-    private static final String BASE_64_ENCODED_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlU0cj1+8oo68KZ4lr20S6G5+mrFa0cwunxXUpcDv+4qzvh/Zavyt/shYfCLvbdahyuREjNGDN/FOACTyPgJ+RAGJm5wcy1S5+wkiG78Crc27v47et5wzlMzqa0hd/vdSh3rd9lVvGdiV3xc2iYTAIZZ+TIx6LaYi/ip2ozGAY9Xur6ItKDrEHMlH9YL3Yzvu3xOpk8EVW4li15G0BbjNIL2+NAXvvCcHA/TOU6pVeIlejP2LcniTgYtenUCPhiXycw90poSWDflfpwO2PGS1S4WyswB+6cQJzkVJPcSHpJkTT25d33H2rGVeoo6a/hWs4idbXiYuS29uNBjpahehqwIDAQAB";
+    private static final String BASE_64_ENCODED_PUBLIC_KEY = "\n" +
+            "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs6K5OaR6fJXJ0q64qNQS9W+c/pU8lltkAaTwmNyYdCpi3Kp6kXK+P7udWxvQTBAdtVA2yC/gFg1jZzh9VFAxpekDzYqcfLXHw6q6nQqO3RB8gIajB1ESOHFA9hC8AHSKT4T0CJpOk+jTwDazi4zUDBbY8j2quSZHJqC3Fh71miT8qRiO42/hAV1Uzi+PN1LXI7GvbFjEJj15gZJsganrKBFIr/kqNffF8/wV58z4fynFElOxTCVH9a0z6Em+FPnoKo+KRyjEBHnLRpBUqFPB2FI3F6fAUxKq4oovltlhp77bfq2COOctRm+ftz4rlltIrYmrs0H4gmhyKOxBiVEy1QIDAQAB";
 
     /**
      * Listener to the updates that happen when purchases list was updated or consumption of the
